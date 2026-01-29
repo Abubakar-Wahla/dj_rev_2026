@@ -126,10 +126,7 @@ STATIC_URL = "/static/"
 # where collectstatic will copy everything in production
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
-# your local development static folder (you already have /static)
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
+
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
